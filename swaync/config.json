@@ -1,0 +1,49 @@
+{
+  "$schema": "/home/suz/.config/swaync/configSchema.json",
+  "ignore-gtk-theme": true,
+  "positionX": "right",
+  "poisitonY": "bottom",
+  "control-center-positionX": "left",
+  "control-center-positionY": "top",
+  "control-center-margin-left": 10,
+  "control-center-margin-top": 440,
+  "control-center-height": 750,
+  "control-center-width": 475,
+  "fit-to-screen": false,
+  "notification-2fa-action": true,
+  "timeout": 7,
+  
+  "widgets": [
+    "title",
+    "buttons-grid",
+    "mpris"
+  ],
+
+  "widget-config": {
+
+    "mpris": {
+      "autohide": true,
+      "loop-carousel": true
+    },
+
+    "buttons-grid": {
+      "buttons-per-row": 5,
+      "actions": [
+        {
+          "label": " ",
+          "type": "toggle",
+          "active": true,
+          "command": "sh -c '~/.config/swaync/scripts/toggle_wifi.sh'",
+          "update-command": "sh -c 'set +e;[[ $(nmcli radio wifi) == \"enabled\" ]] && echo true || echo false'"
+        },
+        {
+          "label": "g",
+          "type": "toggle",
+          "active": false,
+          "command": "sh -c '$HOME/.config/swaync/scripts/gamemode.sh'",
+          "update-command": "sh -c '[[ -f $HOME/.cache/gamemode_on ]] && echo true || echo false'"
+        }
+      ]
+    }
+  }
+}

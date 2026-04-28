@@ -1,0 +1,93 @@
+/* GENERAL */
+* {
+  font-family: "SF Pro Display";
+  font-size: 20px;
+}
+
+/* WIDGET-BUTTONS-GRID */
+.widget-buttons-grid button {
+  background: white;
+  color: black;
+  transition: background 0.3s ease, color 0.3s ease;
+  border-radius: 100px;
+  min-width: 40px;
+  min-height: 0px;
+  padding: 0px;
+}
+
+.widget-buttons-grid button:hover {
+  background: #222222;
+  color: white
+}
+
+.widget-buttons-grid flowboxchild > button.toggle:checked {
+  background: #c4b5fd;
+}
+
+/* CONTROL CENTER */
+.control-center {
+  background: black;
+  opacity: 0.9;
+}
+
+/* TITLE WIDGET */
+.widget-title>button:disabled {
+  background: black;
+  color: black;
+}
+
+.widget-title>button {
+  background: black
+}
+
+.widget-title>button:hover {
+  background: #222222
+}
+
+/* MPRIS WIDGET */
+.widget-mpris>box>button,
+.widget-mpris-player,
+.widget-mpris-album-art {
+  border-radius: 10px;
+  box-shadow: none;
+  margin: 10px;
+}
+
+.widget-mpris-title {
+  font-size: 16px;
+}
+
+/* NOTIFICATION */
+.notification > .title {
+  font-weight: bold;
+}
+
+.notification > .body {
+    font-size: 16px;
+}
+
+.notification {
+  background: #000000;
+  opacity: 0.8;
+}
+
+.notification-group {
+  transition: opacity 200ms ease-in-out;
+  background: transparent;
+}
+
+.summary {
+  font-size: 18px;
+}
+
+.body {
+  font-size: 15px;
+}
+
+.close-button {
+  background: black;
+}
+
+.close-button:hover {
+  background: #222222;
+}
