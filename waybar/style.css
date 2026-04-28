@@ -1,0 +1,135 @@
+* {
+  font-family: SF Mono;
+  border-radius: 64px;
+  font-size: 12px;
+  padding: 0px;
+  background: transparent;
+  min-width: 30px;
+  min-height: 30px;
+}
+
+window#waybar {
+  padding: 0px;
+}
+
+#workspaces,
+#custom-swaync,
+#custom-cpu,
+#clock,
+#tray,
+#battery,
+#bluetooth,
+#custom-wlogout {
+  background-image: linear-gradient(to bottom, #ffffff 100%);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 2px;
+  padding-left: 2px;
+  color: black;
+}
+
+#custom-cpu,
+#custom-wlogout {
+  border-radius: 0px 0px 32px 32px;
+}
+
+#custom-wlogout {
+  font-size: 21px;
+}
+
+#custom-cpu,
+#battery {
+  font-size: 9px;
+}
+
+#clock,
+#bluetooth {
+  border-radius: 32px 32px 0px 0px
+}
+
+#battery,
+#tray {
+  border-radius: 0px;
+}
+
+#tray {
+  padding: 0px;
+}
+
+#custom-swaync {
+  margin-top: 4px;
+  margin-bottom: 4px
+}
+
+#custom-cpu,
+#clock,
+#battery,
+#custom-wlogout {
+  padding: 0px;
+}
+
+#custom-wlogout {
+  padding-right: 1px;
+}
+
+#clock {
+  padding-top: 6px;
+  font-size: 14px
+}
+
+#custom-swaync {
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-top: 2px
+}
+
+#workspaces button.focused {
+  color: #ffffff;
+  background: #000000
+}
+
+#workspaces button {
+  color: #000000
+}
+
+#tray menu * {
+  min-height: 0px;
+  min-width: 0px;
+}
+
+#tray menu {
+  background: white;
+  color: black;
+  border-radius: 14px;
+  padding: 2px
+}
+
+#tray menuitem {
+  padding: 6px;
+  border: none;
+  border-style: none;
+  min-height: 0px;
+  min-width: 0px;
+  color: black
+}
+
+#tray menuitem:hover {
+  background: black;
+  color: white;
+  border-radius: 14px;
+}
+
+tooltip * {
+  background-color: black;
+  min-height: 0px;
+  min-width: 0px;
+  padding: 1px;
+  padding-right: 2px;
+  padding-left: 2px
+}
+
+#bluetooth {
+  font-size: 20px;
+  padding: 0px;
+  padding-top: 6px;
+}

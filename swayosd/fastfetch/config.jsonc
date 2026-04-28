@@ -1,0 +1,109 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "/home/suz/.config/fastfetch/art/ascii1.txt",
+    "color": {
+    "1": "white",
+    "2": "white",
+    "3": "white",
+    "4": "white",
+    "5": "white",
+    "6": "white",
+    "7": "white",
+    "8": "white"
+    },
+    "padding": {
+      "right": 4
+    }
+  },
+
+  "display": {
+    "color": {
+      "key": "white",
+      "title": "white",
+      "output": "white"
+    }
+  },
+
+  "modules": [
+    {
+      "type": "custom",
+      "format": "╔═══════════"
+    },
+    {
+      "key": "  user",
+      "type": "title",
+      "keyColor": "white"
+    },
+    {
+      "key": "  os",
+      "type": "os",
+      "keyColor": "white"
+    },
+    {
+      "key": "  device",
+      "type": "host",
+      "keyColor": "white",
+      "format": "MacBook Pro Retina, Mid 2012"
+    },
+    {
+      "key": "  display",
+      "type": "display",
+      "format": "2880x1800, 60Hz, 15.4\"",
+      "keyColor": "white"
+    },
+    {
+      "key": "  wm",
+      "type": "wm",
+      "format": "niri",
+      "keyColor": "white"
+    },
+    {
+      "key": "  terminal",
+      "type": "terminal",
+      "format": "foot",
+      "keyColor": "white"
+    },
+    {
+      "key": "  cpu",
+      "type": "cpu",
+      "format": "Intel Core i7 3820QM, 4c/8t, 3.7GHz",
+      "keyColor": "white"
+    },
+    {
+      "key": "  igpu",
+      "type": "custom",
+      "format": "Intel HD Graphics 4000",
+      "keyColor": "white"
+    },
+    {
+      "key": "  dgpu",
+      "type": "custom",
+      "format": "NVIDIA GT 650M Mac Edition 1GB",
+      "keyColor": "white"
+    },
+    {
+      "key": "  ram",
+      "type": "memory",
+      "format": "{used} / {total}",
+      "keyColor": "white"
+    },
+    {
+      "key": "  ssd",
+      "type": "disk",
+      "format": "{1} / {2} [{9}]",
+      "keyColor": "white"
+    },
+    {
+      "key": "  shell",
+      "type": "shell",
+      "keyColor": "white",
+      "format": "fish"
+    },
+    {
+      "type": "custom",
+      "format": "                                ═══════════╝"
+    }
+  ]
+}

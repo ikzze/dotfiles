@@ -1,0 +1,46 @@
+* {
+  font-family: SF Mono;
+  background: transparent;
+  color: white;
+}
+
+window {
+  background-image: linear-gradient(to bottom, #000000 100%);
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 22px;
+  border-color: #751414;
+}
+
+#inner-box {
+  padding-top: 12px;
+}
+
+#entry {
+  border-style: none;
+  padding: 0px;
+  margin-bottom: 8px;
+  margin-left: 12px;
+  margin-right: 12;
+  border-radius: 22px;
+}
+
+#entry:selected {
+  background: #222222;
+}
+
+#input {
+  border-radius: 22px;
+  outline: none; 
+  box-shadow: none;
+}
+
+#input:focus {
+  border-color: #751414;
+  border-width: 1px;
+  background-color: black;
+  background: black;
+  color: white;
+  border-radius: 22px;
+}

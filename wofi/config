@@ -1,0 +1,11 @@
+[config]
+show=drun
+prompt=
+width=500
+height=400
+image_size=32
+term=foot
+hide_scroll=true
+insensitive=true
+columns=1
+allow_images=true

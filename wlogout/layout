@@ -1,0 +1,23 @@
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff"
+    "text": "shutdown"
+}
+
+{
+    "label" : "restart",
+    "action" : "systemctl reboot",
+    "text": "restart"
+}
+
+{
+    "label" : "suspend",
+    "action" : "systemctl suspend",
+    "text": "suspend"
+}
+
+{
+    "label" : "lock",
+    "action" : "hyprlock",
+    "text": "lock"
+}

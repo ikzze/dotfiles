@@ -1,0 +1,45 @@
+[Added Associations]
+image/jpeg=qimgv.desktop
+image/webp=qimgv.desktop
+image/png=qimgv.desktop
+image/bmp=qimgv.desktop
+x-scheme-handler/tg=userapp-AyuGram Desktop-KRTTL3.desktop;
+x-scheme-handler/tonsite=userapp-AyuGram Desktop-BRETL3.desktop;
+audio/flac=mpv.desktop;
+video/mp4=qimgv.desktop;
+audio/mpeg=org.gnome.Decibels.desktop;
+video/quicktime=qimgv.desktop;
+image/gif=qimgv.desktop;
+audio/vnd.wave=org.gnome.Decibels.desktop;
+audio/x-ms-wma=org.gnome.Decibels.desktop;
+video/x-matroska=org.gnome.Showtime.desktop;qimgv.desktop;mpv.desktop;
+audio/x-vorbis+ogg=org.gnome.Decibels.desktop;
+
+[Default Applications]
+x-scheme-handler/tg=userapp-AyuGram Desktop-KRTTL3.desktop
+x-scheme-handler/tonsite=userapp-AyuGram Desktop-BRETL3.desktop
+application/x-ms-dos-executable=wine.desktop;
+audio/flac=org.gnome.Decibels.desktop
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
+x-scheme-handler/discord=vesktop.desktop
+video/mp4=qimgv.desktop
+audio/mpeg=org.gnome.Decibels.desktop
+video/quicktime=qimgv.desktop
+image/gif=qimgv.desktop
+audio/vnd.wave=org.gnome.Decibels.desktop
+audio/x-ms-wma=org.gnome.Decibels.desktop
+video/x-matroska=mpv.desktop
+audio/x-vorbis+ogg=org.gnome.Decibels.desktop
+audio/mpeg=org.gnome.Decibels.desktop
+audio/flac=org.gnome.Decibels.desktop
+audio/mp4=org.gnome.Decibels.desktop
+audio/ogg=org.gnome.Decibels.desktop
+audio/wav=org.gnome.Decibels.desktop
+inode/directory=pcmanfm.desktop
+
+[Removed Associations]
+audio/mpeg=freac.desktop
+audio/flac=freac.desktop
+audio/mp4=freac.desktop
+audio/ogg=freac.desktop
+audio/wav=freac.desktop

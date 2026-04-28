@@ -1,0 +1,68 @@
+{
+  "layer": "top",
+  "position": "left",
+  "margin-left": 4,
+  "margin-top": 4,
+  "margin-bottom": 4,
+
+  "modules-left": ["niri/workspaces"],
+  "modules-center": ["custom/swaync","clock","custom/cpu"],
+  "modules-right": ["bluetooth","tray","battery","custom/wlogout"],
+
+  "niri/workspaces": {
+  },
+
+  "clock": {
+    "interval": 60,
+    "format": "{:%H\n%M}",
+    "tooltip": false
+  },
+
+  "tray": {
+    "icon-size": 22
+  },
+
+  "custom/cpu": {
+    "exec": "/home/suz/.config/waybar/scripts/cpu",
+    "interval": 1
+  },
+
+  "battery": {
+    "bat": "BAT0",
+    "adapter": "ADP1",
+    "interval": 15,
+    "format": "{icon}{capacity}%",
+    "format-icons": {
+      "default": ["󰁻","󰁽","󰁿","󰂁","󰁹"],
+      "charging": ["󰂆","󰂈","󰂉","󰂊","󰂅"]
+    },
+    "states": {
+      "warning": 30,
+      "critical": 10
+    },
+  },
+
+  "custom/swaync": {
+    "on-click": "swaync-client -t",
+    "format": "〇",
+    "interval": "once",
+    "tooltip": false
+  },
+
+  "custom/wlogout": {
+    "on-click": "wlogout -b 1",
+    "format": "󰐥",
+    "interval": "once",
+    "tooltip": false
+  },
+
+  "bluetooth": {
+    "format-on": "󰂯",
+    "format-off": "󰂲",
+    "format-connected": "󰂳",
+    "format-disabled": "󰂲",
+    "on-click": "GSK_RENDERER=gl overskride",
+    "tooltip-format-connected": "{status}",
+    "tooptip-format-off": "{status}"
+  }
+}

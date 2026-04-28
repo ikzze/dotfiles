@@ -1,0 +1,21 @@
+window#osd {
+  border-radius: 999px;
+  border: 2px;
+  background: black;
+  padding: 0px;
+}
+
+progressbar,
+segmentedprogress {
+  background-color: #222222;
+}
+
+progress,
+segment.active {
+  background-color: white;
+}
+
+image,
+label {
+  color: white
+}

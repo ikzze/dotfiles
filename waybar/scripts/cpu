@@ -1,0 +1,2 @@
+#!/bin/bash
+sensors | awk '/Package id 0/ {match($0, /\+([0-9]+)/, a); print a[1]"°C"}'
