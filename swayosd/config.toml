@@ -1,5 +1,0 @@
-[server]
-style = "/home/suz/.config/swayosd/style.css"
-min_brightness = 0
-max_volume = 100
-show_percentage = true
