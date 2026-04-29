@@ -14,7 +14,9 @@
     "8": "white"
     },
     "padding": {
-      "right": 4
+      "right": 4,
+      "left": 2,
+      "top": 1
     }
   },
 
@@ -27,6 +29,8 @@
   },
 
   "modules": [
+    { "type": "break" },
+    { "type": "break" },
     {
       "type": "custom",
       "format": "╔═══════════"
